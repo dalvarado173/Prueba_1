@@ -1,0 +1,232 @@
+:root{
+    --color-general: #66615b;
+    --color-titulos: #111111;
+    --fondo-azul: #f5fafd;
+    --color-iconos-naranja: #f5593d;
+    --color-iconos-gris: #888888;
+    --fondo-footer: #252422;
+    --letra-footer: #ffffff;
+	--font-contenido: 'Roboto', sans-serif;
+    --font-titulos: 'Dosis', sans-serif;
+	--gradient-bg: linear-gradient(135deg, #ff4b72 0%, #f5593d 100%);
+}
+a{
+	outline:0 !important;	
+}
+header{
+	background-color: #000;
+	border-bottom: 1px solid rgba(170,170,170,.30);
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:15px;	
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#fff;	
+	font-weight:600;
+	letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#fff;
+}
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#fff;
+}
+.navbar-light .navbar-nav .active .nav-link:hover{
+	background-color:transparent;
+	color:#fff;
+}
+
+.navbar-light .navbar-nav .btn-warning{
+	border-radius: 0;
+	color: #fff;
+}
+.navbar-light .navbar-nav .btn-warning:hover{
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+	background-color:#212121;
+	border:0;
+}
+.dropdown-menu .dropdown-item{
+	font-weight:300!important;	
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
+	color:#fff;
+}
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
+  color: #ff5518;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: transparent;
+	border:1px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#fff;	
+	text-transform: uppercase;
+	height: auto;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#1F81BF;
+}
+.navbar-light .navbar-brand img{
+	max-width: 250px;
+}
+
+
+
+.carousel-caption{
+	/*width: 100%;
+	height: 100%;
+	top: 25%;	
+	bottom:25%;
+	left: inherit;
+	right: inherit;
+	display: table;*/
+	top:50%;
+	left: 50%;
+	bottom: inherit;
+	transform: translate(-50%,-50%);
+}
+.caption-center{
+	/*display: table-cell;
+	vertical-align: middle;*/
+}
+body {
+    font-family: var(--font-contenido);
+    color: var(--color-general);
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-titulos);
+    color: var(--color-titulos);
+}
+.hero-section {
+    background: var(--gradient-bg);
+    color: white;
+    padding: 100px 0 80px 0;
+    min-height: 80vh;
+}
+.hero-section h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+.hero-text p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.btn-hero {
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.feature-icon {
+    color: var(--color-iconos-naranja);
+    font-size: 2rem;
+}
+.blue-bg-wrapper {
+    background-color: var(--fondo-azul);
+}
+.bg-orange {
+    background-color: var(--color-iconos-naranja) !important;
+}
+.testimonial-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+.testimonial-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.download-section {
+    background: var(--gradient-bg);
+}
+
+.download-section h2 {
+    color: white;
+}
+
+.btn-download {
+    background-color: white;
+    border-radius: 8px;
+    color: var(--color-titulos);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    color: var(--color-titulos);
+}
+
+.btn-download i {
+    color: var(--color-iconos-gris);
+}
+.footer-section {
+    background-color: var(--fondo-footer);
+    color: var(--letra-footer);
+}
+
+.social-links a {
+    color: var(--letra-footer);
+    font-size: 1.2rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--color-iconos-naranja);
+}
+
+.copyright-text {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
